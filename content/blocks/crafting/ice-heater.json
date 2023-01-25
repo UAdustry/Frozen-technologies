@@ -1,0 +1,44 @@
+{
+"type": "GenericCrafter",
+"size": 2,
+"craftTime": 200,
+"hasPower": true,
+"hasLiquids": true,
+"liquidCapacity": 20,
+	"drawer": {
+	"type": "DrawMulti",
+        "drawers": [
+        {
+        "type": "DrawRegion",
+       "suffix": "-bottom"
+        },
+        {
+        "type": "DrawDefault"
+        },
+        {
+        "type": "DrawLiquidRegion",
+        "drawLiquid": "water",
+        "suffix": "-liquid"
+	  }
+    ]
+    },
+"outputLiquid": "water/0.1",
+"consumes": {
+  "power": 0.4,
+    "items": [
+    "ice/1"
+    ]
+},
+"requirements": [
+  "ancient-metal/50",
+  "ice/100"
+],
+"category": "crafting",
+"research": {
+  "parent": "ancient-metal-forge",
+  "requirements": [
+    "ancient-metal/150",
+    "ice/300"
+  ]
+}
+}

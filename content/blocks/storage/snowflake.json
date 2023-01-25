@@ -1,0 +1,15 @@
+{
+	"type": "CoreBlock",
+	"health": 750,
+	"size": 1,
+	"itemCapacity": 100,
+	"unitCapModifier": 1,
+    "unitType": "snowflake-drone",
+	"requirements": [
+		"lead/1"
+	],
+  	"category": "effect",
+  "solid": false,
+  "placeableOn": true,
+  "alwaysUnlocked": true
+}

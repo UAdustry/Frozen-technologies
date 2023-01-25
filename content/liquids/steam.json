@@ -1,0 +1,10 @@
+"temperature": 0.1,
+"flammability": 0,
+"viscosity": 0,
+"heatCapacity": 0,
+"explosiveness": 0,
+"color": "dedede",
+"gas": true,
+"research": {
+	"parent": "electro-heater"
+}

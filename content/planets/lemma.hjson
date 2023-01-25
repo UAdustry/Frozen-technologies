@@ -1,0 +1,44 @@
+mesh: {
+  type: NoiseMesh
+  planet: lemma
+  seed: 143
+  divisions: 5
+  color1: c5c5c5
+  color2: b2b2b2
+  colorScale: 0.5
+  radius: 0.8
+  octaves: 3
+  persistence: 1
+  scale: 0.4
+  mag: 1.5
+}
+sectorSize: 2.4
+generator: {
+
+}
+orbitSpacing: 12
+orbitRadius: 25
+raradius: 0.8
+minZoom: 1
+maxZoom: 4
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: true
+sectorSeed: 0
+bloom: false
+visible: true
+atmosphereColor: d7ff7c
+iconColor: efcdb8
+hasAtmosphere: true
+allowSectorInvasion: false
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowLaunchSchematics: false
+allowWaves: true
+defaultCore: snowflake
+parent: sun
+alwaysUnlocked: true
+hiddenItems: [
+]

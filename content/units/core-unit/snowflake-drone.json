@@ -1,0 +1,47 @@
+"type": "mech",
+"speed": 0.8,
+"canBoost": true,
+"rotateSpeed": 2,
+"health": 150,
+"lightRadius": 40,
+"mineSpeed": 0.7,
+"mineTier": 2,
+"buildSpeed": 0.8,
+"weapons": [
+{
+				"name": "snowflake-gun",
+				"shootCone": 20,
+				"inaccuracy": 10,
+				"reload": 70,
+				"recoil": 0.4,
+				"mirror": false,
+				"x": 1,
+				"y": 4,
+				"shootX": 1,
+				"shootY": 4,
+				"shoot": {
+				"type": "ShootPattern",
+				"shots": 3,
+				},
+				"bullet": {
+					"type": "BasicBulletType",
+					"damage": 15,
+					"knockback": 1,
+					"lifetime": 35,
+					"speed": 4.5,		
+					"shootEffect": "none",
+					"despawnEffect": "none",
+					"hitEffect": {
+						"type": "ParticleEffect",
+    				"particles": 10,
+    				"length": 10,
+    				"baseLength": 5,
+    				"lifetime": 40,
+   						 "sizeFrom": 1,
+    				"sizeTo": 2,
+    				"colorFrom": "FFFFFF",
+   						 "colorTo": "c5c5c5"
+					}
+				}
+		}
+	]

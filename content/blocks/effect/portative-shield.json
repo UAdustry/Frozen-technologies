@@ -1,0 +1,32 @@
+"type": "ForceProjector"
+"size": 1,
+"health": 100,
+"shieldHealth": 200,
+"radius": 30,
+"phaseRadiusBoost": 0,
+"phaseShieldBoost": 0,
+"cooldownNormal": 1,
+"cooldownLiquid": 0.5,
+"cooldownBrokenBase": 1,
+"consumes": {
+  "power": 0.5,
+  "liquid": {
+      "liquid": "steam",
+      "amount": 0.3,
+      "booster": false,
+       "optional": true
+  }
+},
+"category": "effect"
+"research": {
+  "parent": "reinforced-solar-panel",
+  "requirements": [
+    "ancient-metal/950",
+    "freezeless-glass/850"
+  ]
+},
+"requirements": [
+    "ancient-metal/95",
+    "freezeless-glass/85"
+],
+"ambientSoundVolume": 0.1

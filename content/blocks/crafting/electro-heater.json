@@ -1,0 +1,45 @@
+{
+"type": "GenericCrafter",
+"size": 2,
+"craftTime": 200,
+"hasPower": true,
+"hasLiquids": true,
+"liquidCapacity": 20,
+	"drawer": {
+	"type": "DrawMulti",
+        "drawers": [
+        {
+        "type": "DrawRegion",
+       "suffix": "-bottom"
+        },
+        {
+        "type": "DrawDefault"
+        },
+        {
+        "type": "DrawLiquidRegion",
+        "drawLiquid": "water",
+        "suffix": "-liquid"
+	  }
+    ]
+    },
+"outputLiquid": "steam/0.2",
+"consumes": {
+  "power": 0.6,
+    "liquid": {
+    "liquid": "water",
+    "amount": 0.1
+    }
+},
+"requirements": [
+  "ancient-metal/75",
+  "freezeless-glass/75"
+],
+"category": "crafting",
+"research": {
+  "parent": "freezeless-glass-kiln",
+  "requirements": [
+    "ancient-metal/750",
+    "ice/750"
+  ]
+}
+}

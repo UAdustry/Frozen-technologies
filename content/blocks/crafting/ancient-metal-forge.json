@@ -1,0 +1,24 @@
+{
+"type": "GenericCrafter",
+"size": 2,
+"craftTime": 250,
+"hasPower": false,
+"hasLiquids": false,
+"itemCapacity": 12,
+"outputItem": "ancient-metal/4",
+"consumes": {
+    "items": [
+    "dry-metal/4"
+    ]
+},
+"requirements": [
+  "dry-metal/25",
+],
+"category": "crafting",
+"research": {
+  "parent": "snowflake",
+  "requirements": [
+    "dry-metal/250",
+  ]
+}
+}

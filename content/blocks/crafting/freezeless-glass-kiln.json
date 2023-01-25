@@ -1,0 +1,37 @@
+{
+"type": "GenericCrafter",
+"size": 3,
+"craftTime": 300,
+"hasPower": true,
+"hasLiquids": false,
+"itemCapacity": 16,
+"outputItem": "freezeless-glass/2",
+    "drawer": {
+    "type": "DrawMulti",
+         "drawers": [
+        {
+        "type": "DrawDefault"
+        },
+        {
+          "type": "DrawFlame",
+         "flameColor": "deae52"
+      }
+    ],
+    },
+"consumes": {
+	"power": 0.9,
+    "items": [
+    "sand/2"
+    ]
+},
+"requirements": [
+  "ancient-metal/40",
+],
+"category": "crafting",
+"research": {
+  "parent": "ancient-metal-forge",
+  "requirements": [
+    "ancient-metal/160",
+  ]
+}
+}

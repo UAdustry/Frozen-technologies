@@ -1,0 +1,15 @@
+"type": "SolarGenerator",
+"size": 2,
+"powerProduction": 0.33,
+"requirements": [
+	"ancient-metal/30"
+	"freezeless-glass/10"
+],
+"category": "power",
+"research": {
+	"parent": "freezeless-glass-kiln",
+	"requirements": [
+	"ancient-metal/150"
+	"freezeless-glass/50"
+	]
+}
