@@ -1,3 +1,4 @@
 "type": "Floor",
 "itemDrop": "ice"
-"playerUnmineable": true
+"playerUnmineable": true,
+"variants": 3

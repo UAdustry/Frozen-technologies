@@ -37,7 +37,7 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowLaunchSchematics: false
 allowWaves: true
-defaultCore: snowflake
+defaultCore: snowflake-core
 parent: sun
 alwaysUnlocked: true
 hiddenItems: [

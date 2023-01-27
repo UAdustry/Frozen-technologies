@@ -1,12 +1,12 @@
 {
 	"type": "CoreBlock",
 	"health": 750,
-	"size": 1,
+	"size": 2,
 	"itemCapacity": 100,
 	"unitCapModifier": 1,
-    "unitType": "snowflake-drone",
+    "unitType": "blindness-drone",
 	"requirements": [
-		"lead/1"
+		"ancient-metal/1"
 	],
   	"category": "effect",
   "solid": false,

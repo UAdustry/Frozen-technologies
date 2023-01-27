@@ -14,11 +14,11 @@
 				"inaccuracy": 10,
 				"reload": 70,
 				"recoil": 0.4,
-				"mirror": false,
-				"x": 1,
-				"y": 4,
-				"shootX": 1,
-				"shootY": 4,
+				"mirror": true,
+				"x": 4,
+				"y": 1,
+				"shootX": 4,
+				"shootY": 1,
 				"shoot": {
 				"type": "ShootPattern",
 				"shots": 3,
@@ -33,14 +33,14 @@
 					"despawnEffect": "none",
 					"hitEffect": {
 						"type": "ParticleEffect",
-    				"particles": 10,
+    				"particles": 1,
     				"length": 10,
     				"baseLength": 5,
     				"lifetime": 40,
    						 "sizeFrom": 1,
-    				"sizeTo": 2,
-    				"colorFrom": "FFFFFF",
-   						 "colorTo": "c5c5c5"
+    				"sizeTo": 1,
+    				"colorFrom": "FF0000",
+   						 "colorTo": "FFFFFF"
 					}
 				}
 		}
